@@ -13,3 +13,11 @@ The log book.
 		- Run SL4A from native app: intent builder.
 	- `buildozer` always failed when compiling `pyjnius`, possibly because of space character in the directory name. Solved by removing space character in the folder name.
 	- If other libraries are needed, eg., `numpy` or `PIL`, these shuould be compiled specifically for the device architecture, which is mostly frustating.
+
+- **Sel Mei 30 11:25:26 WIB 2017**
+	- Trying to compile in Linux.
+	- Use `Pillow` instead of `PIL`
+	- Looks like `PIL` is installed for 64 bit instead of 32 bit
+	```
+	05-30 12:32:44.160 10290 10317 I python  :  ImportError: dlopen failed: "/data/data/ugm.dteti.pythoncompress.pythoncompress/files/app/lib/python2.7/site-packages/PIL/_imaging.so" is 64-bit instead of 32-bit
+	```
