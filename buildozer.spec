@@ -88,13 +88,13 @@ fullscreen = 0
 #android.permissions = INTERNET
 
 # (int) Android API to use
-android.api = 23 # Marshmallow
+android.api = 19
 
 # (int) Minimum API required
 #android.minapi = 9
 
 # (int) Android SDK version to use
-android.sdk = 23
+android.sdk = 20
 
 # (str) Android NDK version to use
 #android.ndk = 9c

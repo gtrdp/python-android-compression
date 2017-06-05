@@ -21,3 +21,9 @@ The log book.
 	```
 	05-30 12:32:44.160 10290 10317 I python  :  ImportError: dlopen failed: "/data/data/ugm.dteti.pythoncompress.pythoncompress/files/app/lib/python2.7/site-packages/PIL/_imaging.so" is 64-bit instead of 32-bit
 	```
+- **Sen Jun  5 09:57:47 WIB 2017**
+	- Try to compile using ubuntu 32 bit in virtual box: completed using Android API target 19; SDK 20.
+	- Got this message when running the app:
+	```
+	06-05 09:55:01.870  7535  7559 I python  :  ImportError: dlopen failed: "/data/data/ugm.dteti.pythoncompress.pythoncompress/files/app/lib/python2.7/site-packages/PIL/_imaging.so" has unexpected e_machine: 3
+	```
