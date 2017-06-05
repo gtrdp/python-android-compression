@@ -27,3 +27,5 @@ The log book.
 	```
 	06-05 09:55:01.870  7535  7559 I python  :  ImportError: dlopen failed: "/data/data/ugm.dteti.pythoncompress.pythoncompress/files/app/lib/python2.7/site-packages/PIL/_imaging.so" has unexpected e_machine: 3
 	```
+	- PIL is supported by default in QPython:
+		- https://github.com/qpython-android/qpython.org/issues/51
